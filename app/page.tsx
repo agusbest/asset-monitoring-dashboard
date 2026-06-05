@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-import AssetMap from "../components/AssetMap";
+import AssetMap from "../components/AssetMapWrapper";
 import AssetTable from "../components/AssetTable";
 import RegionFilter from "../components/RegionFilter";
 import SummaryCards from "../components/SummaryCards";
