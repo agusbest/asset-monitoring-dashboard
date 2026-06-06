@@ -13,7 +13,8 @@ export default function AssetTable({
     assets,
 }: Props) {
     return (
-        <table className="w-full border">
+        <div className="overflow-x-auto">
+    <table className="min-w-full">
             <thead>
                 <tr className="bg-gray-100">
                     <th className="p-3">Asset Name</th>
@@ -32,5 +33,6 @@ export default function AssetTable({
                 ))}
             </tbody>
         </table>
+        </div>
     );
 }

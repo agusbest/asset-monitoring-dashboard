@@ -108,11 +108,9 @@ export default function AssetMap({
             <MapContainer
                 center={[-6.4, 107]}
                 zoom={8}
-                style={{
-                    height: "500px",
-                    width: "100%",
-                }}
+                className="h-[300px] md:h-[400px] lg:h-[500px] w-full"
             >
+
                 <TileLayer
                     attribution="© OpenStreetMap"
                     url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
